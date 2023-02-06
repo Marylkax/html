@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+         <title>Curriculum Vitae</title>
+         <style>
+          body {background-color: #5680e9;}
+   .summary {background-color: #5ab9ea;
+  border: 4px solid #1351eb;}
+   .workhistory{background-color: #84ceeb;
+    border: 4px solid #0f526d;}
+   .skills{background-color: #9c79e8;
+    border: 4px solid#4f0ce0}
+   .education {background-color: #785eaf;
+    border: 4px solid #270a66;}
+         </style>
+    </head>
+    
   <body>
-    <title>Curriculum Vitae</title>
-    <h1>CV Marylka Griffiths</h1>
+  
+    <h1 class="title">CV Marylka Griffiths</h1>
 
     <img src="Marylka.jpg" width="100px" height="100px" />
-    <h2>Professional Summary</h2>
+    
+    <div class="summary">
+    <h2 >Professional Summary</h2>
     <p>
       Detail-orientated with a background in Biological Science. Accomplished at
       juggling multiple tasks and working under pressure.
     </p>
+    </div>
+    <div class="workhistory">
     <h3>Work History</h3>
     <table>
       <tr>
@@ -66,14 +85,17 @@
         </td>
       </tr>
     </table>
+    </div>
+    <div class="skills">
     <h2>Skills</h2>
     <p>
       Data collection and synthesis. Collating information into succint report
       writing
     </p>
     <p>Organised and time efficient</p>
-
-    <h2>Education</h2>
+</div>
+    
+<div class="education"> <h2>Education</h2>
     <table>
       <th>University of Nottingham</th>
       <td>MRes Population genetics</td>
@@ -82,6 +104,14 @@
       <th>University of Warwick</th>
       <td>BSc Biological Sciences</td>
     </table>
+  </div>
+  <video width="320" height="240" controls>
+    <source src="Ocean.mp4" type="video/mp4">
+  Your browser does not support the video
+  </video>
+  <audio controls>
+    <source src="stardust.mp3" type="audio/mp3">
+  </audio>
 
     <footer>Contact Info</footer>
     <p>07471063510</p>
