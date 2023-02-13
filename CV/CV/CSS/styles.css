@@ -1,0 +1,43 @@
+.title {
+    color: aqua;
+    text-align: left;
+}
+body {background-color: #5680e9;
+font-family: Arial, Helvetica, Cambria;}
+   .summary {background-color: #5ab9ea;
+  border: 4px solid #1351eb;
+position: fixed;
+top: 20px;
+max-width:40%;
+right: 0px;
+}
+   .workhistory{background-color: #84ceeb;
+    border: 4px solid #0f526d;
+    max-width: 50%;
+right: 0px}
+   .skills{
+    background-color: #9c79e8;
+    border: 4px solid#4f0ce0;
+max-width: 50%;
+}
+   .education {background-color: #785eaf;
+    border: 4px solid #270a66;
+max-width: 50%;
+}
+   .headshot  {
+    height: "100px"; 
+    position: absolute;
+    right: 0px;
+    top: 200px;
+   } /* unsure this is working - change pixel size and image stays the same */
+   .icon {width: 20px;
+    height: 20px;
+   }
+   .cloud {
+    position: fixed;
+    top: 40;
+    right: 10px;
+    z-index: -1;
+    opacity: 0.2;
+    
+   }
